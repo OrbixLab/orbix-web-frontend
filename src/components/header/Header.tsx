@@ -11,10 +11,21 @@ const HeaderContainer = styled.div`
   align-items: flex-start;
 `;
 
+const VideoContainer = styled.video`
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+`;
+
 const Header = () => {
   return (
     <HeaderContainer>
       <Logo />
+      <VideoContainer autoPlay loop muted playsInline>
+        <source src="/chessUpVIdeo.mp4" type="video/mp4" />
+      </VideoContainer>
     </HeaderContainer>
   );
 };

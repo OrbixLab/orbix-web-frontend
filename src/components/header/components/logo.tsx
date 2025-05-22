@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const LogoImg = styled.img`
-  margin: 0px 0px 0px 15px;
+  /* margin: 0px 0px 0px 15px; */
   width: 44.45px;
   height: 35px;
 `;
@@ -22,6 +22,10 @@ const LogoContainer = styled.div`
   font-style: italic;
   text-align: center;
   margin: 1rem;
+  z-index: 2;
+  background-color: #695acd89;
+  padding: 5px 7px;
+  border-radius: 5px;
 `;
 
 const Logo = () => {
