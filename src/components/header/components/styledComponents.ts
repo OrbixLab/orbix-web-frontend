@@ -6,8 +6,9 @@ export const HeaderContainer = styled.div`
   height: 70vh;
   background-color: dimgray;
   width: 100%;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 `;
 
 export const VideoContainer = styled.video`
@@ -43,4 +44,36 @@ export const LogoContainer = styled.div`
   background-color: #695acd89;
   padding: 5px 7px;
   border-radius: 5px;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  &:hover {
+    background-color: #695acd;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+  }
+`;
+
+export const HeaderTitle = styled.h1`
+  color: white;
+  z-index: 2;
+  margin: 0;
+  padding: 10px 0;
+`;
+
+export const HeaderButton = styled.button`
+  background-color: #695acd89;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  z-index: 2;
+  &:hover {
+    background-color: #695acd;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+  }
 `;
