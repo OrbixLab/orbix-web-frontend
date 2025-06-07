@@ -14,8 +14,8 @@ function App() {
       <Header />
       <SlideComponent slideDirection="right" headerTitle="MODULAR" />
       <SlideComponent slideDirection="left" headerTitle="MULTIGAME" />
-      <SlideComponent slideDirection="right" headerTitle="CARTAS" />
-      <SlideComponent slideDirection="left" headerTitle="CONTROL" />
+      <SlideComponent slideDirection="right" headerTitle="CARDS" />
+      <SlideComponent slideDirection="left" headerTitle="CONTROLLER" />
       <SlideComponent
         slideDirection="right"
         headerTitle="CREATE YOUR OWN GAME"
