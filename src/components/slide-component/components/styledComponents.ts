@@ -3,7 +3,8 @@ import styled from "styled-components";
 const SlideContainer = styled.div`
   display: flex;
   height: 90vh;
-  background-color: #695acd89;
+  background-color: #0b0c10;
+  color: rgb(var(--gray-600));
   width: 90%;
   margin: 2rem 0;
   justify-content: center;

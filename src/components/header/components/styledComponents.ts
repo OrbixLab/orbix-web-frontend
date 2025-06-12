@@ -28,7 +28,7 @@ export const LogoFont = styled.h1`
   font-size: 1.6rem;
   color: white;
   margin: 2px 0px 0px 0px;
-  color: rgba(128, 209, 95, 1);
+  color: rgb(var(--gray-200));
 `;
 
 export const LogoContainer = styled.div`
@@ -41,14 +41,15 @@ export const LogoContainer = styled.div`
   text-align: center;
   margin: 1rem;
   z-index: 2;
-  background-color: #695acd89;
+  background-color: #0b0c10;
+  color: rgb(var(--gray-600));
   padding: 5px 7px;
   border-radius: 5px;
   position: absolute;
   top: 2rem;
   left: 0;
   &:hover {
-    background-color: #695acd;
+    background-color: rgb(41, 13, 16);
     transition: all 0.3s ease-in-out;
     transform: scale(1.05);
   }
@@ -62,7 +63,8 @@ export const HeaderTitle = styled.h1`
 `;
 
 export const HeaderButton = styled.button`
-  background-color: #695acd89;
+  background-color: #0b0c10;
+  color: rgb(var(--gray-600));
   color: white;
   border: none;
   padding: 10px 20px;
@@ -72,7 +74,7 @@ export const HeaderButton = styled.button`
   margin-top: 1rem;
   z-index: 2;
   &:hover {
-    background-color: #695acd;
+    background-color: rgb(41, 13, 16);
     transition: all 0.3s ease-in-out;
     transform: scale(1.05);
   }
