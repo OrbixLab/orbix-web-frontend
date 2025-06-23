@@ -11,6 +11,7 @@ const SlideContainer = styled.div`
   width: 90%;
   margin: 2rem 0;
   justify-content: center;
+  flex-direction: column;
 `;
 
 export const SlideContainerLeft = styled(SlideContainer)<{
@@ -18,10 +19,16 @@ export const SlideContainerLeft = styled(SlideContainer)<{
 }>`
   align-self: flex-end;
   border-radius: 2rem 0 0 2rem;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     85.2deg,
     rgba(33, 3, 40, 1) 7.5%,
     rgba(65, 5, 72, 1) 88.7%
+  ); */
+  background: radial-gradient(
+    circle,
+    rgba(219, 33, 33, 1) 3%,
+    rgba(136, 39, 39, 1) 24%,
+    rgba(47, 46, 46, 1) 80%
   );
 
   opacity: 0;
@@ -41,10 +48,16 @@ export const SlideContainerRight = styled(SlideContainer)<{
 }>`
   align-self: flex-start;
   border-radius: 0 2rem 2rem 0;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     290deg,
     rgba(8, 7, 7, 1) 2.6%,
     rgba(110, 43, 98, 1) 103.4%
+  ); */
+  background: radial-gradient(
+    circle,
+    rgba(219, 33, 33, 1) 3%,
+    rgba(136, 39, 39, 1) 24%,
+    rgba(47, 46, 46, 1) 80%
   );
 
   opacity: 0;
@@ -71,4 +84,27 @@ export const SlideHeader = styled.h1`
   padding: 0 1rem;
   border-radius: 0.5rem;
   align-self: center;
+`;
+
+export const Img = styled.img`
+  width: 30%;
+  height: 300px;
+  margin-top: 5rem;
+`;
+
+export const Description = styled.p`
+  font-size: 2rem;
+  width: 55%;
+`;
+
+export const ImageAndDescriptionHolder = styled.div<{
+  direction: "left" | "right";
+}>`
+  display: flex;
+  flex-direction: row;
+  justify-content: ${({ direction }) =>
+    direction === "left" ? "flex-end" : "flex-start"};
+  gap: 50px;
+  margin: ${({ direction }) =>
+    direction === "left" ? "0 3rem 0 0" : "0 0 0 3rem"};
 `;
