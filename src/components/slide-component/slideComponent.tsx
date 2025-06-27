@@ -13,6 +13,7 @@ type SlideComponentProps = {
   slideDirection: "left" | "right";
   headerTitle?: string;
   imgSrc?: string;
+  imgHeight?: string;
   description?: string;
 };
 
@@ -20,6 +21,7 @@ const SlideComponent = ({
   slideDirection,
   headerTitle,
   imgSrc,
+  imgHeight,
   description,
 }: SlideComponentProps) => {
   const ref = useRef<HTMLDivElement>(null);
@@ -51,7 +53,7 @@ const SlideComponent = ({
         <SlideContainerLeft ref={ref} $visible={visible}>
           <SlideHeader>{headerTitle}</SlideHeader>
           <ImageAndDescriptionHolder direction="left">
-            <Img src={imgSrc} />
+            <Img src={imgSrc} imgHeight={imgHeight} />
             <Description>{description}</Description>
           </ImageAndDescriptionHolder>
         </SlideContainerLeft>
@@ -63,13 +65,13 @@ const SlideComponent = ({
           <SlideHeader>{headerTitle}</SlideHeader>
           <ImageAndDescriptionHolder direction="right">
             <Description>{description}</Description>
-            <Img src={imgSrc} />
+            <Img src={imgSrc} imgHeight={imgHeight} />
           </ImageAndDescriptionHolder>
         </SlideContainerRight>
       );
     }
     return <></>;
-  }, [slideDirection, headerTitle, visible, description, imgSrc]);
+  }, [slideDirection, headerTitle, visible, description, imgSrc, imgHeight]);
 
   return renderedComponent;
 };

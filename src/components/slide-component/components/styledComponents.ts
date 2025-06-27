@@ -86,9 +86,9 @@ export const SlideHeader = styled.h1`
   align-self: center;
 `;
 
-export const Img = styled.img`
+export const Img = styled.img<{ imgHeight?: string }>`
   width: 30%;
-  height: 300px;
+  height: ${({ imgHeight }) => imgHeight ?? "300px"};
   margin-top: 5rem;
 `;
 
