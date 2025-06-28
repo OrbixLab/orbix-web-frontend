@@ -41,7 +41,7 @@ export const LogoContainer = styled.div`
   text-align: center;
   margin: 1rem;
   z-index: 2;
-  background-color: #0b0c10;
+  background-color: rgba(112, 112, 112, 0.4);
   color: rgb(var(--gray-600));
   padding: 5px 7px;
   border-radius: 5px;
@@ -49,7 +49,7 @@ export const LogoContainer = styled.div`
   top: 2rem;
   left: 0;
   &:hover {
-    background-color: rgb(41, 13, 16);
+    background-color: rgb(143, 30, 42);
     transition: all 0.3s ease-in-out;
     transform: scale(1.05);
   }
