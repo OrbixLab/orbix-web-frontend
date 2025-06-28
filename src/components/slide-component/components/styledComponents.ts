@@ -95,6 +95,8 @@ export const Img = styled.img<{ imgHeight?: string }>`
 export const Description = styled.p`
   font-size: 2rem;
   width: 55%;
+  text-align: center;
+  align-self: center;
 `;
 
 export const ImageAndDescriptionHolder = styled.div<{

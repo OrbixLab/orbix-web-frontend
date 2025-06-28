@@ -15,42 +15,42 @@ function App() {
       <SlideComponent
         slideDirection="right"
         headerTitle="MODULAR"
-        imgSrc="/board2.jpeg"
+        imgSrc="/Orbix.113.png"
         imgHeight="auto"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non tellus ullamcorper, efficitur odio at, consectetur ligula. Maecenas euismod lorem quis faucibus varius. Etiam quis velit semper, tincidunt velit et, molestie metus. Suspendisse feugiat est non dolor scelerisque tincidunt. In sed nulla sed erat fringilla facilisis. Proin aliquet tortor lacinia fermentum bibendum. Ut et augue pellentesque, volutpat elit id, sollicitudin velit. Integer laoreet nisi quis lacinia tempus."
+        description="Each Orbix board is powered independently, allowing it to function either as part of a larger system or on its own."
       />
       <SlideComponent
         slideDirection="left"
         headerTitle="MULTIGAME"
-        imgSrc="/Render1.jpeg"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non tellus ullamcorper, efficitur odio at, consectetur ligula. Maecenas euismod lorem quis faucibus varius. Etiam quis velit semper, tincidunt velit et, molestie metus. Suspendisse feugiat est non dolor scelerisque tincidunt. In sed nulla sed erat fringilla facilisis. Proin aliquet tortor lacinia fermentum bibendum. Ut et augue pellentesque, volutpat elit id, sollicitudin velit. Integer laoreet nisi quis lacinia tempus."
+        imgSrc="/Orbix.114.png"
+        description="Orbix is a modular tabletop gaming console that supports timeless classics, immersive role-playing games, and an ever-growing library of innovative new titles."
       />
       <SlideComponent
         slideDirection="right"
         headerTitle="CARDS"
         imgSrc="/Render1.jpeg"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non tellus ullamcorper, efficitur odio at, consectetur ligula. Maecenas euismod lorem quis faucibus varius. Etiam quis velit semper, tincidunt velit et, molestie metus. Suspendisse feugiat est non dolor scelerisque tincidunt. In sed nulla sed erat fringilla facilisis. Proin aliquet tortor lacinia fermentum bibendum. Ut et augue pellentesque, volutpat elit id, sollicitudin velit. Integer laoreet nisi quis lacinia tempus."
+        description="Orbix goes beyond smart board pieces by also supporting smart cards, expanding gameplay possibilities in exciting ways."
       />
       <SlideComponent
         slideDirection="left"
         headerTitle="CONTROLLER"
-        imgSrc="/board1.jpeg"
+        imgSrc="/Orbix.91.1.png"
         imgHeight="auto"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non tellus ullamcorper, efficitur odio at, consectetur ligula. Maecenas euismod lorem quis faucibus varius. Etiam quis velit semper, tincidunt velit et, molestie metus. Suspendisse feugiat est non dolor scelerisque tincidunt. In sed nulla sed erat fringilla facilisis. Proin aliquet tortor lacinia fermentum bibendum. Ut et augue pellentesque, volutpat elit id, sollicitudin velit. Integer laoreet nisi quis lacinia tempus."
+        description="Orbix includes a companion app that connects seamlessly with the board, unlocking endless game-enhancing features and dynamic interactions."
       />
       <SlideComponent
         slideDirection="right"
         headerTitle="CREATE YOUR OWN GAME"
         imgSrc="/studio1.jpeg"
         imgHeight="auto"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non tellus ullamcorper, efficitur odio at, consectetur ligula. Maecenas euismod lorem quis faucibus varius. Etiam quis velit semper, tincidunt velit et, molestie metus. Suspendisse feugiat est non dolor scelerisque tincidunt. In sed nulla sed erat fringilla facilisis. Proin aliquet tortor lacinia fermentum bibendum. Ut et augue pellentesque, volutpat elit id, sollicitudin velit. Integer laoreet nisi quis lacinia tempus."
+        description="Design your own games using our intuitive tools, and share them with the Orbix community through the integrated marketplace."
       />
       <SlideComponent
         slideDirection="left"
         headerTitle="ORBIX MARKET"
         imgSrc="/studio2.jpeg"
         imgHeight="auto"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non tellus ullamcorper, efficitur odio at, consectetur ligula. Maecenas euismod lorem quis faucibus varius. Etiam quis velit semper, tincidunt velit et, molestie metus. Suspendisse feugiat est non dolor scelerisque tincidunt. In sed nulla sed erat fringilla facilisis. Proin aliquet tortor lacinia fermentum bibendum. Ut et augue pellentesque, volutpat elit id, sollicitudin velit. Integer laoreet nisi quis lacinia tempus."
+        description="Access a wide selection of free and premium games on the Orbix Market. Download and play instantly on your board."
       />
     </AppContainer>
   );
