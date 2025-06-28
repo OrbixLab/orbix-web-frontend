@@ -1,14 +1,14 @@
-const navBarItems = [
-  "modular",
-  "multigame",
-  "cards",
-  "controller",
-  "create",
-  "market",
-];
+// const navBarItems = [
+//   "modular",
+//   "multigame",
+//   "cards",
+//   "controller",
+//   "create",
+//   "market",
+// ];
 
-const NavigationBar = () => {
-  return <></>;
-};
+// const NavigationBar = () => {
+//   return <></>;
+// };
 
-export default NavigationBar;
+// export default NavigationBar;
