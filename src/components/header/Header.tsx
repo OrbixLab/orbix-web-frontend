@@ -5,6 +5,7 @@ import {
   HeaderTitle,
   HeaderButton,
 } from "./components/styledComponents";
+import videHeader from "/VideoHeader.mp4";
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
       <HeaderTitle>Play All Kinds of Games</HeaderTitle>
       <HeaderTitle>With Orbix Smart Board</HeaderTitle>
       <VideoContainer autoPlay loop muted playsInline>
-        <source src="/VideoHeader.mp4" type="video/mp4" />
+        <source src={videHeader} type="video/mp4" />
       </VideoContainer>
       <HeaderButton>Reserve Now</HeaderButton>
     </HeaderContainer>
